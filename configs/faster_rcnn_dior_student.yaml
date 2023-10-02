@@ -1,0 +1,25 @@
+# Dataset
+dataset: dior
+data_path: dior
+labeled_batch_size: 2
+unlabeled_batch_size: 6
+workers: 10
+data_augmentation: hard
+bs: bs_2_6
+
+# Model
+model: fasterrcnn_resnet50_fpn
+use_score: True
+sync_bn: True
+finetune: False
+eval_freq: 2000
+
+# Optimizer
+iterations: 90000
+lr: 0.08
+momentum: 0.9
+weight_decay: 0.0001
+lr_scheduler: multisteplr
+lr_step: [60000, 80000]
+lr_gamma: 0.1
+
