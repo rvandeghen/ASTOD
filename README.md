@@ -5,7 +5,8 @@
 This repository contains the implementation of the following paper: "Adaptive Self-Training for Object Detection", that was paper presented at ICCVW2023.
 
 This work presents a semi-supervised learning method for object detection.
-This repository can be used to reproduce the main results of the paper.
+This repository can be used to reproduce the main results of the paper.  
+[[paper](https://openaccess.thecvf.com/content/ICCV2023W/LIMIT/papers/Vandeghen_Adaptive_Self-Training_for_Object_Detection_ICCVW_2023_paper.pdf)]
 
 ## bibtex
 ```
